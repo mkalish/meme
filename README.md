@@ -1,3 +1,15 @@
+# Local Setup
+Run these commands to get started.  The first thing you'll need to is get Vagrant
+[https://www.vagrantup.com/downloads.html](https://www.vagrantup.com/downloads.html)
+* `vagrant up`
+* `vagrant ssh`
+* `cd /vagrant`
+* `bundle exec middleman build`
+* `cd build`
+* `python -m SimpleHTTPServer`
+
+Visit localhost:8080 to see the site.
+
 # Meme v.2
 
 Contributors: Yuri Victor, Joshua Benton, Matt Montgomery, Ivar Vong, Steve Peters, Flip Stewart, Greg MacWilliam.
